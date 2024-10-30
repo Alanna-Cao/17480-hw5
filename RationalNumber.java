@@ -59,7 +59,7 @@ public final class RationalNumber {
      * @return a new RationalNumber representing this × n
      * @throws NullPointerException if n is null
      */
-    public RationalNumber times(RationalNumber n);
+    public RationalNumber multiply(RationalNumber n);
 
     /**
      * Returns a new RationalNumber that is this divided by n.
@@ -68,7 +68,7 @@ public final class RationalNumber {
      * @throws NullPointerException if n is null
      * @throws ArithmeticException if n is zero
      */
-    public RationalNumber dividedBy(RationalNumber n);
+    public RationalNumber divide(RationalNumber n);
 
     /**
      * Returns a new RationalNumber that is this modulo n.
@@ -80,5 +80,40 @@ public final class RationalNumber {
      * @throws ArithmeticException if n is zero
      */
     public RationalNumber mod(RationalNumber n);
+
+    /**
+     * Checks if this RationalNumber is equal to another RationalNumber.
+     * @param obj the object to compare to
+     * @return true if obj is a RationalNumber and equal to this
+     */
+    public boolean equals(Object obj);
+
+    /**
+     * Checks if this RationalNumber is greater than another RationalNumber.
+     * @param n the number to compare to
+     * @return true if this is greater than n
+     */
+    public boolean isGreaterThan(RationalNumber n);
+
+    /**
+     * Checks if this RationalNumber is less than another RationalNumber.
+     * @param n the number to compare to
+     * @return true if this is less than n
+     */
+    public boolean isLessThan(RationalNumber n);
+
+    /**
+     * Checks if this RationalNumber is greater than or equal to another RationalNumber.
+     * @param n the number to compare to
+     * @return true if this is greater than or equal to n
+     */
+    public boolean isGreaterThanOrEqualTo(RationalNumber n);
+
+    /**
+     * Checks if this RationalNumber is less than or equal to another RationalNumber.
+     * @param n the number to compare to
+     * @return true if this is less than or equal to n
+     */
+    public boolean isLessThanOrEqualTo(RationalNumber n);
 }
     
