@@ -59,7 +59,7 @@ public final class RationalNumber {
      * @return a new RationalNumber representing this × n
      * @throws NullPointerException if n is null
      */
-    public RationalNumber times(RationalNumber n);
+    public RationalNumber multiply(RationalNumber n);
 
     /**
      * Returns a new RationalNumber that is this divided by n.
@@ -68,7 +68,7 @@ public final class RationalNumber {
      * @throws NullPointerException if n is null
      * @throws ArithmeticException if n is zero
      */
-    public RationalNumber dividedBy(RationalNumber n);
+    public RationalNumber divide(RationalNumber n);
 
     /**
      * Returns a new RationalNumber that is this modulo n.
