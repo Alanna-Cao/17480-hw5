@@ -80,5 +80,7 @@ public final class RationalNumber {
      * @throws ArithmeticException if n is zero
      */
     public RationalNumber mod(RationalNumber n);
+
+    
 }
     
