@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"Getopt"},{"p":"<Unnamed>","l":"LocaleCollator"},{"p":"<Unnamed>","l":"Getopt.LongOption"},{"p":"<Unnamed>","l":"RationalNumber"}];updateSearchResults();

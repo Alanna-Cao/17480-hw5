@@ -1,11 +1,10 @@
-
+import java.util.Locale;
 /**
  * A Java utility class for locale-sensitive string collation.
  * This class provides methods for comparing and transforming strings 
  * according to the collation rules of a specified locale, similar to 
  * the C functions strcoll(), strxfrm(), wcscoll(), and wcsxfrm().
  * 
- * <Example Code>
  * <pre>
  * int result = LocaleCollator.compareStrings(Locale.US, "apple", "banana");
  * String key = LocaleCollator.transformString(Locale.US, "apple");
@@ -22,8 +21,8 @@ public final class LocaleCollator {
      * @param locale The locale to use for collation.
      * @param s1 The first string to compare.
      * @param s2 The second string to compare.
-     * @return An integer: negative if s1 < s2, zero if s1 == s2, 
-     *         positive if s1 > s2 in collation order.
+     * @return An integer: negative if s1 &lt; s2, zero if s1 == s2, 
+     *         positive if s1 &gt; s2 in collation order.
      */
     public static int compareStrings(Locale locale, String s1, String s2);
 

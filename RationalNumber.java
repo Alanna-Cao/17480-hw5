@@ -73,7 +73,7 @@ public final class RationalNumber {
     /**
      * Returns a new RationalNumber that is this modulo n.
      * The result r satisfies: this = n.times(q).plus(r) for some q,
-     * where r has the same sign as n and abs(r) < abs(n).
+     * where r has the same sign as n and abs(r) &lt; abs(n).
      * @param n the modulus to use
      * @return a new RationalNumber representing this mod n
      * @throws NullPointerException if n is null
