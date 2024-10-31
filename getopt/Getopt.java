@@ -3,6 +3,7 @@
  * A Java implementation of the C getopt() function for parsing command-line options.
  * This class provides functionality similar to the GNU C getopt() function,
  * allowing programs to parse command-line arguments according to Unix conventions.
+ * <Example code>
  */
 public class Getopt {
     /**
