@@ -1,4 +1,3 @@
-import java.util.Locale;
 
 /**
  * A Java utility class for locale-sensitive string collation.
